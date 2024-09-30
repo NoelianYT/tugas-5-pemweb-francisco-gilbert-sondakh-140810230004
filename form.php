@@ -52,74 +52,7 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Input Data Mahasiswa</title>
-    <style>
-        body {
-            background-color: #f0f8ff;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            flex-direction: column;
-        }
-
-        form {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            width: 400px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            color: #1a73e8;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        label {
-            color: #333333;
-            font-weight: bold;
-        }
-
-        input[type="text"],
-        input[type="date"],
-        input[type="radio"] {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0 15px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-        input[type="radio"] {
-            width: auto;
-        }
-
-        input[type="submit"] {
-            background-color: #1a73e8;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #1558b0;
-        }
-
-        .message {
-            text-align: center;
-            color: green;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="myStyle.css">
 </head>
 <body>
     <h2>Form Input Data Mahasiswa</h2>
